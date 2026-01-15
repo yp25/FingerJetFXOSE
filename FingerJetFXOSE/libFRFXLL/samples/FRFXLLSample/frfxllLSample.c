@@ -384,11 +384,11 @@ int RunTests() {
   _printf(("Starting tests.\n"));
   size = sizeof(data);  
   memset( data, 0, size);
-  TestGetLibraryVersion(data, &size);
+  TestGetLibraryVersion();
   _printf(("."));
   size = sizeof(data);  
   memset( data, 0, size);
-  TestCreateContext(data, &size);
+  TestCreateContext();
   _printf(("."));
   size = sizeof(data);  
   memset( data, 0, size);
